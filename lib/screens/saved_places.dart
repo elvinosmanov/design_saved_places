@@ -59,6 +59,11 @@ class _SavedPlacesState extends State<SavedPlaces> {
                       iconData: Icons.bookmark_outlined,
                       iconColor: Colors.yellow[700]),
                 ),
+                Divider(
+                  color: Colors.grey[300],
+                  thickness: 2,
+                  height: 0,
+                ),
                 customDismissible(
                   key: Key("2"),
                   bgColor: Colors.red,
@@ -67,6 +72,11 @@ class _SavedPlacesState extends State<SavedPlaces> {
                       subtitle: 'Gambarov Str. 72',
                       iconData: Icons.food_bank_rounded,
                       iconColor: Colors.black),
+                ),
+                Divider(
+                  color: Colors.grey[300],
+                  thickness: 2,
+                  height: 0,
                 ),
                 customDismissible(
                   key: Key("3"),
